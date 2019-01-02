@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body, html {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+	font-size: calc(100vw/ 3.75);
+	overflow-x: hidden;
+	background-color: rgba(232, 234, 234, 0.08);
+}
+
+.wrap {
+	margin: .2rem 0;
+	padding: 0.08rem;
+	font-size: 0.1rem;
+}
+
+.wrap>ul>li {
+	display: inline-block;
+	border-top-left-radius: 0.04rem;
+	border-top-right-radius: 0.04rem;
+	border: 1px solid rgba(230, 230, 230, 0.8);
+	background-color: #fff;
+	margin: 0 0.046rem 0.1rem 0.046rem;
+}
+
+.wrap>ul>li>.txt {
+	width: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	background: url(./826807.png) no-repeat center;
+	background-size: 8% 50%;
+	background-position: 0.03rem 0.055rem;
+	padding-left: 0.24rem;
+	position: relative;
+}
+
+.wrap>ul>li>.txt::before {
+	content: "hot";
+	color: rgba(248, 144, 20, 0.8);
+	position: absolute;
+	left: 0.12rem;
+	bottom: 0.08rem;
+	font-size: 65%;
+	font-style: italic;
+}
+
+.wrap>ul>li>img {
+	border-top-left-radius: 0.04rem;
+	border-top-right-radius: 0.04rem;
+	width: 1.677rem;
+	height: 1.3rem;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
